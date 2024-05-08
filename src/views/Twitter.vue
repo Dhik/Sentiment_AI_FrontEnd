@@ -43,10 +43,10 @@ watch(
 <template>
   <div class="flex justify-content-between mb-3">
     <div>
-      <h2>Youtube</h2>
+      <h2>Twitter</h2>
     </div>
-    <div class="flex align-items-center justify-content-center bg-orange-100 border-round" style="width: 2.5rem; height: 2.5rem">
-        <i class="pi pi-youtube text-orange-500 text-xl"></i>
+    <div class="flex align-items-center justify-content-center bg-blue-100 border-round" style="width: 2.5rem; height: 2.5rem">
+        <i class="pi pi-twitter text-blue-500 text-xl"></i>
     </div>
 </div>
     <div class="grid">
@@ -322,8 +322,7 @@ watch(
     // Add your list of Indonesian stopwords here
     "dan", "atau", "sebagai", "di", "dari", "dalam", "ke", "pada", "oleh", "dengan", "yg", "yang", "ini", "itu", "gak", "bisa", "jadi", "ya", "harus", "nya", "lain", "aja", "lah", "lain", "ada", "cuma", "sy", "utk", "tau", "ga", "dg", "dpr", "untuk", "tdk", "org",
     "kok", "apa", "tapi", "pak", "tidak", "para", "kalian", "saya", "kan", "klo", "jd", "pd", "sj", "sja", "lg", "orng", "aku", "toh", "bg", "ia", "gue", "a", "hai", "sm", "aq", "kl", "jg", "bgt", "ni", "tuk", "dia", "g", "bru", "ji", "sg", "l", "r", "hi", "kita", "orang", "ud",
-    "th", "pp", "lagi", "ntar", "a", "b", "c", "d", "e", "f", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "ky", "td", "pj", "kha", "tp", "dll", "gk", "klw",
-    "sih", "ttp", "as", "uhuy", "ae", "lha", "tpi", "dn", "no", "eh", "gw", "so", ""
+    "th", "pp", "lagi", "ntar", "a", "b", "c", "d", "e", "f", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z", "ky", "td", "pj", "kha"
     // Add more stopwords as needed
   ];
 
@@ -348,7 +347,7 @@ watch(
     size: wordsMap[word]
   }));
 
-  const width = 530;
+  const width = 500;
   const height = 250;
 
   const svg = d3.select(this.$refs.svg)

@@ -29,6 +29,21 @@ const router = createRouter({
                     component: () => import('@/views/News.vue')
                 },
                 {
+                    path: '/instagram',
+                    name: 'instagram',
+                    component: () => import('@/views/Instagram.vue')
+                },
+                {
+                    path: '/twitter',
+                    name: 'twitter',
+                    component: () => import('@/views/Twitter.vue')
+                },
+                {
+                    path: '/tiktok',
+                    name: 'tiktok',
+                    component: () => import('@/views/Tiktok.vue')
+                },
+                {
                     path: '/devdash',
                     name: 'devdash',
                     component: () => import('@/views/Devdash.vue')
