@@ -153,12 +153,6 @@ watch(
     </div>
     <div class="col-6">
       <div class="card">
-        <h5>Word Cloud</h5>
-        <svg ref="svg"></svg>
-      </div>
-    </div>
-    <div class="col-6">
-      <div class="card">
         <h5>Daftar Berita</h5>
         <div v-if="loading">Loading news...</div>
         <div v-else class="tweet-container">
@@ -182,13 +176,7 @@ watch(
       </div>
     </div>
     
-    
-      <div class="col-6">
-        <div class="card">
-          <h5>Sentimen Negatif</h5>
-          
-        </div>
-      </div>
+  
     </div>
   </template>
   
